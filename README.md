@@ -21,5 +21,3 @@ Categories:
 * CSS
 * HTML
 * Global Scope
-
-To view the snippets you can also visit our [Sublime Text Snippets Documentation](http://www.websightdesigns.com/docs/display/SNIPPETS/Sublime+Text+Snippets).
