@@ -5,6 +5,10 @@ Sublime-Text-Snippets
 
 Sublime Text snippets allow you to create your own shortcuts to writing out snippets of code you reuse frequently. Sublime Text snippets are generally compatible with Textmate snippets. Sublime Text snippet files are XML files with the `.sublime-snippet` file extension.
 
+Full documentation on writing snippets is available from:
+
+http://docs.sublimetext.info/en/latest/extensibility/snippets.html
+
 ## Install Instructions
 
 ### Mac OS X
