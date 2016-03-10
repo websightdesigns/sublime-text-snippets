@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[ob_start(); echo "<pre>"; var_dump(${0:var}); echo "</pre>"; \$dump = ob_get_clean(); echo \$dump;]]></content>
+	<content><![CDATA[ob_start(); echo "<pre>"; var_dump( ${0:var} ); echo "</pre>"; \$dump = ob_get_clean(); echo \$dump;]]></content>
 	<tabTrigger>vd</tabTrigger>
 	<scope>source.php</scope>
 	<description>var_dump with pre tags</description>
