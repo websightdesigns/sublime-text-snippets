@@ -2,7 +2,7 @@
 	<content>
 	<![CDATA[
 
-	${1:private} function ${2:name}(${3:argument}) {
+	${1:private} function ${2:name}( ${3:argument} ) {
 		${4:// do something}
 	}
 
