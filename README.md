@@ -9,13 +9,17 @@ Full documentation on writing snippets is available from:
 
 http://docs.sublimetext.info/en/latest/extensibility/snippets.html
 
+## Download Instructions
+
+    $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+
+    $ git clone https://github.com/websightdesigns/sublime-text-snippets.git
+
 ## Install Instructions
 
 ### Mac OS X
 
     $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
-
-    $ git clone https://github.com/websightdesigns/sublime-text-snippets.git
 
     $ mv sublime-text-snippets/*.sublime-snippet .
 
@@ -27,11 +31,10 @@ http://docs.sublimetext.info/en/latest/extensibility/snippets.html
 
     $ mv sublime-text-snippets/*.sublime-snippet .
 
-    $ rm -rf sublime-text-snippets
-
 ## Uninstall Instructions
 
     $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+
     $ mv ./*.sublime-snippet sublime-text-snippets/
 
 ## Snippet Categories
