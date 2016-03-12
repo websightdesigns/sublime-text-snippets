@@ -19,8 +19,6 @@ http://docs.sublimetext.info/en/latest/extensibility/snippets.html
 
     $ mv sublime-text-snippets/*.sublime-snippet .
 
-    $ rm -rf sublime-text-snippets
-
 ### Windows 7 (with Cygwin / Git Bash)
 
     $ cd "%AppData%\Sublime Text 3\Packages\User"
@@ -30,6 +28,11 @@ http://docs.sublimetext.info/en/latest/extensibility/snippets.html
     $ mv sublime-text-snippets/*.sublime-snippet .
 
     $ rm -rf sublime-text-snippets
+
+## Uninstall Instructions
+
+    $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+    $ mv ./*.sublime-snippet sublime-text-snippets/
 
 ## Snippet Categories
 
