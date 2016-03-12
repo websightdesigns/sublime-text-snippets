@@ -1,0 +1,32 @@
+<snippet>
+<content>
+<![CDATA[
+// new mysql connection object
+\$mysqli = new mysqli('${1:localhost}', '${2:username}', '${3:password}', '${4:database}');
+// check mysql connection
+if (mysqli_connect_errno()) {
+	printf("Connection failed: %s\n", mysqli_connect_error());
+	exit();
+}
+// sql query
+\$sql = "SELECT `${5:name}` FROM `${6:table}`";
+// if connection succeeds
+if (\$result = \$mysqli->query($sql)) {
+	\$num_rows = \$result->num_rows;
+	// if there are rows returned
+	if(\$num_rows) {
+		// loop through the rows
+		while(\$row = \$result->fetch_assoc()) {
+			echo \$row['${7:name}'];
+		}
+		// free the result set from memory
+		\$result->close();
+	}
+}
+// close the mysql connection
+\$mysqli->close();
+]]>
+</content>
+<tabTrigger>mysqli_loop</tabTrigger>
+<description>PHP mysqli connector</description>
+</snippet>

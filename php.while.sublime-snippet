@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+	<![CDATA[\$i = ${1:0};
+while (\$i <= ${2:10}):
+	${3:echo \$i;}
+	\$i++;
+endwhile;]]>
+	</content>
+	<tabTrigger>while</tabTrigger>
+	<description>php while loop</description>
+	<scope>source.php</scope>
+</snippet>
