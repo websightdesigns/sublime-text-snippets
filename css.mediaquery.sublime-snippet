@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@media (max-width: $1) {
+	$2
+}
+]]></content>
+	<tabTrigger>mediaquery</tabTrigger>
+	<scope>source.css</scope>
+	<description>import media query</description>
+</snippet>
