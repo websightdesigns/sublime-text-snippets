@@ -3,6 +3,6 @@
 @import "${1:css}/${1:style}.${2:css}";
 ]]></content>
 	<tabTrigger>@import</tabTrigger>
-	<scope>source.css</scope>
+	<scope>source.css, source.sass</scope>
 	<description>import bem-style block</description>
 </snippet>

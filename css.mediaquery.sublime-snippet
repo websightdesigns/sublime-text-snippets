@@ -5,6 +5,6 @@
 }
 ]]></content>
 	<tabTrigger>mediaquery</tabTrigger>
-	<scope>source.css</scope>
+	<scope>source.css, source.sass</scope>
 	<description>import media query</description>
 </snippet>

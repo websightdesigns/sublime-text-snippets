@@ -3,4 +3,6 @@
 <link rel="stylesheet" href="$1.css">
 ]]></content>
     <tabTrigger>css</tabTrigger>
+    <scope>text.html</scope>
+    <description>link html tag</description>
 </snippet>

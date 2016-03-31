@@ -43,3 +43,7 @@ http://docs.sublimetext.info/en/latest/extensibility/snippets.html
 * CSS
 * HTML
 * Global Scope
+
+## Developer Notes
+
+To determine the correct scope key to use, press `CMD+ALT+P` (on Mac OS X) in a file of the desired scope and it will show up in the status bar.
