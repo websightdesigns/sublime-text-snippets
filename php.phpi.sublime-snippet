@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[?>${0}<?php]]></content>
+	<tabTrigger>phpi</tabTrigger>
+	<scope>source.php</scope>
+	<description>php tags inverted</description>
+</snippet>
