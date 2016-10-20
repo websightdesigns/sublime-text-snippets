@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[have_rows('${1}')]]></content>
+	<tabTrigger>have_rows</tabTrigger>
+	<scope>source.php</scope>
+	<description>have_rows() - ACF</description>
+</snippet>

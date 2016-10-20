@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[has_sub_field('${1}')]]></content>
+	<tabTrigger>has_sub_field</tabTrigger>
+	<scope>source.php</scope>
+	<description>has_sub_field() - ACF</description>
+</snippet>

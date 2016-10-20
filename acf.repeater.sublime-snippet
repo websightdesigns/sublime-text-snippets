@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[if( have_rows('${1}') ) {
+	while( have_rows('${1}') ) {
+		the_row();
+		if( get_sub_field('${2}') ) {
+			\$${2} = get_sub_field('${2}');
+		}
+	}
+}]]></content>
+	<tabTrigger>repeater</tabTrigger>
+	<scope>source.php</scope>
+	<description>repeater field loop - ACF</description>
+</snippet>

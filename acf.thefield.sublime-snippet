@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[the_field('${1}')${2}]]></content>
+	<tabTrigger>the_field</tabTrigger>
+	<scope>source.php</scope>
+	<description>the_field() - ACF</description>
+</snippet>
