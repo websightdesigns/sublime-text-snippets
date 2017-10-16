@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<div class="col-lg-10">
+	${0}
+</div>]]></content>
+	<tabTrigger>collg10</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description>col-lg-10</description>
+</snippet>
