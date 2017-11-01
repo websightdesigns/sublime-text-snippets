@@ -1,31 +1,32 @@
 <snippet>
 	<content><![CDATA[<!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>${1:Home}</title>
-        <meta name="description" content="${2}">
-        <meta name="keywords" content="${3}">
-        <meta name="author" content="${4:Author Name} <${5:info@domain.com}>">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:url" content="http://www.${6:domain.com}/">
-        <meta property="og:title" content="${7:Home}">
-        <meta property="og:description" content="${8:Home} - ${9:domain.com}">
-        <meta property="og:site_name" content="${10:domain.com}">
-        <meta property="og:type" content="website">
-        <meta property="og:image" content="http://www.${11:domain.com}/icons/apple-touch-icon-144x144-precomposed.png">
-        <meta property="og:locale" content="en_us">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>${1:Home}</title>
+		<meta name="description" content="${2}">
+		<meta name="keywords" content="${3}">
+		<meta name="robots" content="noindex,nofollow">
+		<meta name="author" content="${4:Author Name} <${5:info@domain.com}>">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:url" content="http://www.${6:domain.com}/">
+		<meta property="og:title" content="${7:Home}">
+		<meta property="og:description" content="${8:Home} - ${9:domain.com}">
+		<meta property="og:site_name" content="${10:domain.com}">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="http://www.${11:domain.com}/icons/apple-touch-icon-144x144-precomposed.png">
+		<meta property="og:locale" content="en_us">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
 
-        ${12:<p>Hello world!</p>}
+		${12:<p>Hello world!</p>}
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-        <script src="js/script.js"></script>
-    </body>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>]]></content>
 	<tabTrigger>html</tabTrigger>
 </snippet>
