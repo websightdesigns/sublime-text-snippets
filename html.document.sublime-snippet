@@ -15,7 +15,7 @@
         <meta property="og:description" content="${8:Home} - ${9:domain.com}">
         <meta property="og:site_name" content="${10:domain.com}">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="http://www.${11:domain.com}/img/ico/apple-touch-icon-144x144-precomposed.png">
+        <meta property="og:image" content="http://www.${11:domain.com}/icons/apple-touch-icon-144x144-precomposed.png">
         <meta property="og:locale" content="en_us">
         <link rel="stylesheet" href="css/style.css">
     </head>

@@ -21,13 +21,17 @@ http://docs.sublimetext.info/en/latest/extensibility/snippets.html
 
 	$ git clone https://github.com/websightdesigns/sublime-text-snippets.git
 
+## Before Install/Uninstall
+
+	$ cd sublime-text-snippets
+
 ## Install Instructions
 
-    $ mv sublime-text-snippets/*.sublime-snippet .
+    $ mv ./*.sublime-snippet ..
 
 ## Uninstall Instructions
 
-    $ mv ./*.sublime-snippet sublime-text-snippets/
+    $ mv ../*.sublime-snippet ./
 
 ## Snippet Categories
 
