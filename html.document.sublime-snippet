@@ -1,16 +1,18 @@
 <snippet>
 	<content><![CDATA[<!DOCTYPE html>
-	<html>
+	<html lang="en-us">
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<title>${1:Home}</title>
 		<meta name="description" content="${2}">
 		<meta name="keywords" content="${3}">
+
 		<meta name="robots" content="noindex,nofollow">
 		<meta name="author" content="${4:Author Name} <${5:info@domain.com}>">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<meta property="og:url" content="http://www.${6:domain.com}/">
 		<meta property="og:title" content="${7:Home}">
 		<meta property="og:description" content="${8:Home} - ${9:domain.com}">
@@ -18,6 +20,14 @@
 		<meta property="og:type" content="website">
 		<meta property="og:image" content="http://www.${11:domain.com}/icons/apple-touch-icon-144x144-precomposed.png">
 		<meta property="og:locale" content="en_us">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:domain" content="${10:domain.com}">
+		<meta name="twitter:title" content="${7:Home}">
+		<meta name="twitter:description" content="${8:Home} - ${9:domain.com}">
+		<meta name="twitter:image" content="http://www.${11:domain.com}/icons/apple-touch-icon-144x144-precomposed.png">
+		<meta name="twitter:url" content="http://www.${6:domain.com}/">
+
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>

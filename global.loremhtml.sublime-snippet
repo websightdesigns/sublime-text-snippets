@@ -11,6 +11,6 @@
 <p>In varius ante sit amet auctor dictum. Integer iaculis est sit amet mi commodo facilisis. Vivamus luctus, dolor in vulputate viverra, nibh mauris tempor magna, non vulputate nisi ipsum sed sapien. Proin egestas enim lacus, a imperdiet lectus consequat a. Curabitur eu placerat risus, fermentum blandit turpis. Fusce id justo et neque vestibulum blandit a tempus quam. Vivamus euismod pulvinar quam in mollis. Sed sed velit in purus tristique elementum. Vestibulum tristique venenatis metus, non dapibus purus eleifend in. Etiam sagittis blandit nulla quis consequat. Phasellus vehicula at ipsum quis cursus. Aliquam erat volutpat. Pellentesque at mollis mauris. Proin in dapibus elit, et auctor velit. Duis convallis arcu ut arcu rutrum rhoncus.</p>]]>
     </content>
     <tabTrigger>loremhtml</tabTrigger>
-    <scope>text.html, source.php</scope>
+    <scope>-source</scope>
     <description>Lorem HTML</description>
 </snippet>

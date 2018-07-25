@@ -11,27 +11,15 @@ http://docs.sublimetext.info/en/latest/extensibility/snippets.html
 
 ## Mac OS X
 
-    $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+    $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 
 ## Windows 7 (with Cygwin / Git Bash)
 
-	$ cd "%AppData%\Sublime Text 3\Packages\User"
+	$ cd "%AppData%\Sublime Text 3\Packages\"
 
 ## Download Instructions
 
 	$ git clone https://github.com/websightdesigns/sublime-text-snippets.git
-
-## Before Install/Uninstall
-
-	$ cd sublime-text-snippets
-
-## Install Instructions
-
-    $ mv ./*.sublime-snippet ..
-
-## Uninstall Instructions
-
-    $ mv ../*.sublime-snippet ./
 
 ## Snippet Categories
 
