@@ -3,6 +3,6 @@
 ${0}
 ?>]]></content>
 	<tabTrigger>phpnl</tabTrigger>
-	<scope>source.php</scope>
+	<scope>embedding.php text.html.basic</scope>
 	<description>php tags new line</description>
 </snippet>

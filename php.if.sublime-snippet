@@ -3,6 +3,6 @@
 	${2}
 }]]></content>
 	<tabTrigger>if</tabTrigger>
-	<scope>source.php</scope>
+	<scope>source.php, embedding.php</scope>
 	<description>if statement</description>
 </snippet>
